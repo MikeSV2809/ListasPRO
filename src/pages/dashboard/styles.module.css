@@ -1,19 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    min-height: 100vh;
+}
+
 .container {
     width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .content {
     background-color: #0f0f0f;
     width: 100%;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .contentForm {
-    max-width: 1024px;
+    max-width: 1200px;
     width: 100%;
-    padding: 0 18px;
+    padding: 0 24px;
     padding-bottom: 28px;
     margin-top: 58px;
 }
@@ -57,9 +72,9 @@
 
 .taskContainer {
     margin: 34px auto 0 auto;
-    padding: 0 18px;
+    padding: 0 24px;
     width: 100%;
-    max-width: 1024px;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
 }
@@ -130,72 +145,22 @@
 }
 
 @media (max-width: 1024px) {
-    .contentForm {
-        padding: 0 10px; /* Reduz o padding em telas menores */
-    }
-
+    .contentForm,
     .taskContainer {
-        padding: 0 10px;
-    }
-
-    .button {
-        font-size: 16px; /* Ajusta o tamanho da fonte do botão */
-    }
-
-    .task {
-        padding: 12px; /* Ajusta o padding das tarefas */
-    }
-
-    .myTasks {
-        font-size: 28px; /* Ajusta o tamanho da fonte do título */
+        max-width: 100%;
+        padding: 0 16px;
     }
 }
 
 @media (max-width: 768px) {
     .contentForm {
-        margin-top: 40px; /* Ajusta a margem superior para telas menores */
-    }
-
-    .myTasks {
-        font-size: 24px; /* Reduz o tamanho da fonte para dispositivos menores */
-    }
-
-    .task {
-        padding: 10px; /* Ajusta o padding das tarefas */
-    }
-
-    .button {
-        font-size: 16px; /* Ajusta o tamanho do botão */
-    }
-
-    .checkboxArea {
-        gap: 6px; /* Ajusta o espaço entre os itens do checkbox */
+        margin-top: 40px;
     }
 }
 
 @media (max-width: 480px) {
-    .contentForm {
-        padding: 0 8px; /* Reduz ainda mais o padding */
-    }
-
-    .myTasks {
-        font-size: 20px; /* Reduz o tamanho do título */
-    }
-
-    .task {
-        padding: 8px; /* Ajusta o padding das tarefas */
-    }
-
-    .button {
-        font-size: 14px; /* Ajusta o tamanho da fonte do botão */
-        padding: 10px 0; /* Ajusta o padding do botão */
-    }
-
-    .taskContent {
-        flex-direction: column; /* Alinha os conteúdos das tarefas em coluna */
-    }
-
-    .tagContainer {
-        margin-bottom: 6px; /* Ajusta o espaçamento das tags */
+    .contentForm,
+    .taskContainer {
+        padding: 0 10px;
     }
 }

@@ -64,11 +64,12 @@
     padding: 4px 14px;
     border-radius: 4px;
     margin: 0 14px;
+    padding-left: 3px;
 }
 
 @media (max-width: 768px) {
     .content {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center; /* Alinha os itens verticalmente no centro */
         padding: 10px; /* Ajusta o padding para telas menores */
     }
