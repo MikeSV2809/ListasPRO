@@ -7,4 +7,19 @@
     outline: none;
     padding: 8px;
     font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .textarea {
+        height: 140px; /* Ajusta a altura em telas menores */
+        padding: 10px; /* Ajusta o padding para dar mais conforto */
+    }
+}
+
+@media (max-width: 480px) {
+    .textarea {
+        height: 120px; /* Ajusta ainda mais a altura para telas pequenas */
+        padding: 12px; /* Ajusta o padding para maior usabilidade em telas pequenas */
+    }
 }

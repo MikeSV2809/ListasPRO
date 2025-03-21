@@ -125,3 +125,24 @@
     font-family: "Roboto", sans-serif;
 }
 
+@media (max-width: 768px) {
+  .container {
+      padding: 0 10px;
+  }
+  
+  .comentsContainer, .commentsContainer {
+      width: 100%;
+      max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .main h1, .comentsContainer h2 {
+      font-size: 20px;
+  }
+  
+  .button {
+      font-size: 16px;
+      padding: 10px 0;
+  }
+}

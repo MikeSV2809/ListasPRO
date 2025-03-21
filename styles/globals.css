@@ -4,9 +4,14 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 
-html{
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+html {
     font-family: "Roboto", sans-serif;
 }

@@ -5,6 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0 10px;
 }
 
 .content {
@@ -14,6 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 auto;
 }
 
 .content a {
@@ -62,4 +64,34 @@
     padding: 4px 14px;
     border-radius: 4px;
     margin: 0 14px;
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        align-items: center; /* Alinha os itens verticalmente no centro */
+        padding: 10px; /* Ajusta o padding para telas menores */
+    }
+
+    .loginButton {
+        padding: 8px 24px; /* Ajusta o tamanho do botão para telas pequenas */
+    }
+
+    .link {
+        margin: 8px 0; /* Ajusta o espaçamento entre links */
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        font-size: 28px; /* Ajusta o tamanho da fonte da logo para telas pequenas */
+    }
+
+    .loginButton {
+        padding: 6px 16px; /* Ajusta o tamanho do botão em telas menores */
+    }
+
+    .link {
+        padding: 6px 12px; /* Ajusta o padding dos links em telas pequenas */
+    }
 }

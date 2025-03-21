@@ -128,3 +128,74 @@
     border: 0;
     margin: 0 8px;
 }
+
+@media (max-width: 1024px) {
+    .contentForm {
+        padding: 0 10px; /* Reduz o padding em telas menores */
+    }
+
+    .taskContainer {
+        padding: 0 10px;
+    }
+
+    .button {
+        font-size: 16px; /* Ajusta o tamanho da fonte do botão */
+    }
+
+    .task {
+        padding: 12px; /* Ajusta o padding das tarefas */
+    }
+
+    .myTasks {
+        font-size: 28px; /* Ajusta o tamanho da fonte do título */
+    }
+}
+
+@media (max-width: 768px) {
+    .contentForm {
+        margin-top: 40px; /* Ajusta a margem superior para telas menores */
+    }
+
+    .myTasks {
+        font-size: 24px; /* Reduz o tamanho da fonte para dispositivos menores */
+    }
+
+    .task {
+        padding: 10px; /* Ajusta o padding das tarefas */
+    }
+
+    .button {
+        font-size: 16px; /* Ajusta o tamanho do botão */
+    }
+
+    .checkboxArea {
+        gap: 6px; /* Ajusta o espaço entre os itens do checkbox */
+    }
+}
+
+@media (max-width: 480px) {
+    .contentForm {
+        padding: 0 8px; /* Reduz ainda mais o padding */
+    }
+
+    .myTasks {
+        font-size: 20px; /* Reduz o tamanho do título */
+    }
+
+    .task {
+        padding: 8px; /* Ajusta o padding das tarefas */
+    }
+
+    .button {
+        font-size: 14px; /* Ajusta o tamanho da fonte do botão */
+        padding: 10px 0; /* Ajusta o padding do botão */
+    }
+
+    .taskContent {
+        flex-direction: column; /* Alinha os conteúdos das tarefas em coluna */
+    }
+
+    .tagContainer {
+        margin-bottom: 6px; /* Ajusta o espaçamento das tags */
+    }
+}
