@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container {
+    background-color: #0f0f0f;
+    width: 100%;
+    height: calc(100vh - 76px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logoContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero {
+    max-width: 480px;
+    object-fit: contain;
+    width: auto;
+    height: auto;
+}
+
+.span {
+    font-family: "Roboto", sans-serif;
+}
+
+.title {
+    font-family: "Roboto", sans-serif;
+    color: #FFF;
+    text-align: center;
+    margin: 28px;
+    line-height: 150%;
+}
+
+.span {
+    font-family: "Roboto", sans-serif;
+}
+
+.infoContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box {
+    background-color: #fafafa;
+    padding: 14px 44px;
+    border-radius: 4px;
+    transition: transform 0.4s;
+    gap: 10px;
+    margin-left: 15px;
+}
+
+.box:hover {
+    transform: scale(1.08);
+}
+
+@media screen and (max-width: 580px) {
+    .hero {
+        max-width: 80%;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .infoContent {
+        flex-direction: column;
+    }
+
+    .box {
+        width: 125%;
+        margin-bottom: 14px;
+        text-align: center;
+    }
+}
