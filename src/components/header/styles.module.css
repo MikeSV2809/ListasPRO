@@ -65,7 +65,7 @@
     padding: 4px 14px;
     border-radius: 4px;
     margin: 0 14px;
-    margin-left: 3px;
+    margin-left: 5px;
 }
 
 @media (max-width: 768px) {
@@ -99,5 +99,6 @@
 
     .link {
         padding: 6px 12px; /* Ajusta o padding dos links em telas pequenas */
+        margin-left: 5px;
     }
 }
