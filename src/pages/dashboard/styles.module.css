@@ -1,13 +1,14 @@
 .container {
     width: 100%;
-    min-width: 100%;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
 }
 
 .content {
     background-color: #0f0f0f;
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     min-height: 180px;
     display: flex;
     align-items: center;
@@ -151,9 +152,5 @@
     .contentForm,
     .taskContainer {
         padding: 0 10px;
-    }
-
-    .content {
-        min-height: 180px;
     }
 }
