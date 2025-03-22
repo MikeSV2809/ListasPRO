@@ -150,8 +150,8 @@
 @media (max-width: 480px) {
 
     .taskContainer {
-        margin-left: 10px;
-        max-width: 380px;
+        margin-left: 15px;
+        max-width: 360px;
     }
 
     .content {
