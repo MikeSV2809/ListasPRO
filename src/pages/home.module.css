@@ -2,8 +2,7 @@
 
 .container {
     background-color: #0f0f0f;
-    width: 100vh;
-    max-width: 1350px;
+    width: 100%;
     min-height: calc(100vh - 76px);
     display: flex;
     justify-content: center;
@@ -86,6 +85,6 @@
     }
 
     .container {
-        width: 100vh;
+        width: 100%;
     }
 }

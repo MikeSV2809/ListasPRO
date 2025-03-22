@@ -1,5 +1,5 @@
 .header {
-    width: 100vh;
+    width: 100%;
     height: 76px;
     background-color: #0f0f0f;
     display: flex;
@@ -10,7 +10,7 @@
 
 .content {
     padding: 0 18px;
-    width: 100vh;
+    width: 100%;
     max-width: 1024px;
     display: flex;
     align-items: center;
@@ -73,7 +73,6 @@
         flex-direction: row;
         align-items: center; /* Alinha os itens verticalmente no centro */
         padding: 10px; /* Ajusta o padding para telas menores */
-        width: 100vh;
     }
 
     .loginButton {
@@ -104,6 +103,6 @@
     }
 
     .header {
-        width: 100vh;
+        width: 100%;
     }
 }
