@@ -101,4 +101,8 @@
         padding: 6px 12px; /* Ajusta o padding dos links em telas pequenas */
         margin-left: 5px;
     }
+
+    .header {
+        width: 150%;
+    }
 }
