@@ -19,7 +19,7 @@
     width: 100%;
     padding: 0 24px;
     padding-bottom: 28px;
-    max-width: 1000px; /* Adicione um limite para manter a proporção */
+    max-width: 1050px; /* Adicione um limite para manter a proporção */
     margin-top: 58px;
 }
 
@@ -58,15 +58,17 @@
     margin-top: 8px;
     font-family: "Roboto", sans-serif;
     cursor: pointer;
-    max-width: 1000px; /* Define um limite igual ao do taskContainer */
+    max-width: 1050px; /* Define um limite igual ao do taskContainer */
 }
 
 .taskContainer {
     padding: 0 24px;
     width: 100%;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    max-width: 1000px; /* Igual ao botão */
+    max-width: 1050px; /* Igual ao botão */
 }
 
 .taskContainer a {
