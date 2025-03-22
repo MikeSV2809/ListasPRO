@@ -63,7 +63,6 @@
     margin: 34px auto 0 auto;
     padding: 0 24px;
     width: 100%;
-    max-width: 1200px;
     display: flex;
     flex-direction: column;
 }
@@ -132,7 +131,6 @@
     .contentForm,
     .taskContainer {
         max-width: 100%;
-        padding: 0 16px;
     }
 }
 
@@ -154,15 +152,10 @@
 
     .content {
         height: auto;
-        padding: 20px;
         width: 100%;
     }
 
     .myTasks {
         font-size: 28px;
-    }
-
-    .task {
-        padding: 10px;
     }
 }

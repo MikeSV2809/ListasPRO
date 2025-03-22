@@ -81,12 +81,11 @@
     .box {
         width: 100%;
         max-width: 200px; /* Reduz a largura dos botões */
-        padding: 10px 20px;
         font-size: 14px; /* Reduz o tamanho da fonte */
         margin-bottom: 10px;
     }
 
     .container {
-        max-width: 150%;
+        width: 100%;
     }
 }
