@@ -85,4 +85,8 @@
         font-size: 14px; /* Reduz o tamanho da fonte */
         margin-bottom: 10px;
     }
+
+    .container {
+        max-width: 100%;
+    }
 }
