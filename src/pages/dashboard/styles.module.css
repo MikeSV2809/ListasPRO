@@ -67,7 +67,7 @@
     display: flex;
     flex-direction: column;
     max-width: 1050px; /* Igual ao botão */
-    margin-left: 150px;
+    margin-left: 145px;
 }
 
 .taskContainer a {
