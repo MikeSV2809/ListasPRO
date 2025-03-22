@@ -1,5 +1,5 @@
 .container {
-    width: 150%;
+    width: 120%;
     max-width: 1250px;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
 
 .content {
     background-color: #0f0f0f;
-    width: 150%;
+    width: 120%;
     max-width: 1450px;
     min-height: 200px;
     display: flex;
@@ -17,7 +17,7 @@
 
 .contentForm {
     max-width: 1200px;
-    width: 100%;
+    width: 120%;
     padding: 0 24px;
     padding-bottom: 28px;
     margin-top: 58px;
@@ -63,7 +63,7 @@
 .taskContainer {
     margin: 34px auto 0 auto;
     padding: 0 24px;
-    width: 150%;
+    width: 120%;
     max-width: 1200px;
     display: flex;
     flex-direction: column;
@@ -83,7 +83,7 @@
 
 .task {
     margin-bottom: 14px;
-    line-height: 150%;
+    line-height: 120%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -119,7 +119,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 150%;
+    width: 120%;
 }
 
 .taskContent p {
@@ -152,7 +152,7 @@
     .contentForm,
     .taskContainer {
         padding: 0 10px;
-        width: 150%;
+        width: 120%;
     }
 
     .content {
