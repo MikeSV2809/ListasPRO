@@ -148,12 +148,10 @@
 }
 
 @media (max-width: 480px) {
-    .contentForm {
-        padding: 0 10px;
-    }
 
     .taskContainer {
         margin-left: 5px;
+        max-width: 80px;
     }
 
     .content {
