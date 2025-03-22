@@ -153,4 +153,8 @@
     .taskContainer {
         padding: 0 10px;
     }
+
+    .content {
+        min-height: 250px;
+    }
 }
