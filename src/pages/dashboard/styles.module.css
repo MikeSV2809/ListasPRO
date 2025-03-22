@@ -1,5 +1,6 @@
 .container {
     width: 100%;
+    max-width: 1024px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -8,6 +9,7 @@
 .content {
     background-color: #0f0f0f;
     width: 100%;
+    max-width: 1024px;
     min-height: 200px;
     display: flex;
     align-items: center;
@@ -150,8 +152,8 @@
 @media (max-width: 480px) {
 
     .taskContainer {
-        margin-left: 15px;
-        max-width: 360px;
+        margin-left: 18px;
+        max-width: 345px;
     }
 
     .content {
