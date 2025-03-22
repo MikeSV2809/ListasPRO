@@ -8,7 +8,7 @@
 .content {
     background-color: #0f0f0f;
     width: 100%;
-    max-width: 1250px;
+    max-width: 1350px;
     min-height: 200px;
     display: flex;
     align-items: center;
@@ -155,6 +155,6 @@
     }
 
     .content {
-        min-height: 250px;
+        height: 250px;
     }
 }
