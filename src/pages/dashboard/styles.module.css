@@ -151,12 +151,13 @@
 
     .taskContainer {
         margin-left: 18px;
-        width: 330px;
+        width: 300px;
     }
 
     .content {
         height: auto;
-        width: auto;
+        width: 100%;
+        padding: 0 10px;
     }
 
     .myTasks {
