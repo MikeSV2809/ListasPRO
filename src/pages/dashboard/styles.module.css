@@ -151,7 +151,7 @@
 
     .taskContainer {
         margin-left: 18px;
-        max-width: 340px;
+        width: 340px;
     }
 
     .content {
