@@ -65,10 +65,9 @@
     padding: 0 24px;
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
     max-width: 1050px; /* Igual ao botão */
+    margin-left: 50px;
 }
 
 .taskContainer a {
